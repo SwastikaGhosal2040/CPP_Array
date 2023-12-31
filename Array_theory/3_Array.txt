@@ -1,0 +1,50 @@
+Q1)Are the following array declaration correct?
+------------------------------------------------
+i) int a(25); -> wrong
+               -> correct should be int a[25];
+
+ii) int size = 10, b[size]; -> correct
+                            -> split it
+                            -> int size = 10;
+                            -> int b[size];
+iii) int c = {0,1,2}; ->wrong
+                      ->answer should be-> int c[]= {0,1,2};
+
+Q2) Which element of the array does this expression reference?
+----------------------------------------------------------------
+num[4] ? -> 4th index = 5th element
+
+Q3) What are the types of Arrays?
+-----------------------------------
+-> There are 3 types of Arrays:
+   i) One dimensional Array
+       --------------------
+      |  |  |  |  |  |  |  |
+       --------------------
+index-> 0  1  2  3  4  5  6
+      1-D Array has 1 index(i).
+   
+   ii) Two dimensional Array
+       -----------------------
+      |  |  |  |  |  |  |  |  |
+       -----------------------
+      |  |  |  |  |  |  |  |  |
+       -----------------------
+      |  |  |  |  |  |  |  |  |
+       ----------------------
+      |  |  |  |  |  |  |  |  |
+       -----------------------
+      2-D Array has 2 indexes.(double index)(i,j)
+
+  iii) Three dimensional Array
+       Can't draw it.
+       3-D Array has 3 indexes.(i,j,k) (k is in Z axis)
+
+Q4) size and sizeof operator
+    (How can we use it to find the length of array?)
+------------------------------------------------------
+   int n = sizeof(arr)/sizeof(arr[0]);
+   Here, n = length of array
+
+  
+    
