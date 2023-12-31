@@ -1,0 +1,27 @@
+Q1)How to access Elements in Array?
+------------------------------------
+
+//lets say, we declare 
+a[7];
+//That means an array is declred of size 7.
+a[3] = 4;
+//That means we initialize value 4 in the 3rd index of array.
+cout<<a[3];
+//cout statement prints the element of 3rd index of the array. 
+
+Q2)How to print output and take inut in an Array?
+--------------------------------------------------
+
+int arr[5]; // Declaration
+arr[0] = 1; // Initialization -> Taking input
+cout<<arr[0];// printing output
+
+...like this we can take the input of other 4 indexes(1,2,3,4)
+
+
+
+
+
+
+
+
